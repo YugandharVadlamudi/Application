@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="tv_profile">Profile</string>
+    <string name="tv_changepassword">Change Password</string>
+    <string name="tv_about">About</string>
+    <string name="bv_lougout">Log out</string>
+    <string name="tv_loginname">login name</string>
+    <string name="tv_home">Home</string>
+
+</resources>

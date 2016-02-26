@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="200dp"
+    android:layout_height="fill_parent"
+android:background="@android:color/transparent"
+    android:layout_margin="@dimen/menu_layout_margin"
+    >
+<RelativeLayout
+    android:id="@+id/rl_profile"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/relativelayoutborder"
+    >
+    <TextView
+        android:id="@+id/tv_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"
+        android:text="@string/tv_profile"
+        style="@style/tv_list_item_styles"
+        />
+</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_change_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/relativelayoutborder"
+
+        >
+        <TextView
+            android:id="@+id/tv_change_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_centerVertical="true"
+            android:text="@string/tv_changepassword"
+            style="@style/tv_list_item_styles"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_about"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/relativelayoutborder"
+        >
+        <TextView
+            android:id="@+id/tv_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="@string/tv_about"
+            style="@style/tv_list_item_styles"
+            />
+    </RelativeLayout>
+<Button
+    android:id="@+id/bv_logout"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:text="@string/bv_lougout"
+    style="@style/tv_list_item_styles"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/bv_logout_background"
+    />
+</LinearLayout>
+    <!--android:background="@android:color/transparent"-->

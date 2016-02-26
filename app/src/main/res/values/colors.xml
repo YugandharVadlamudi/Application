@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ll_background_menu">#5B81E4</color>
+    <color name="rv_background_menu">#ffffff</color>
+    <color name="relative_layout_border">#01FF70</color>
+    <color name="bv_logout">#4279BD</color>
+    <color name="bv_background_logout">#4279BD</color>
+</resources>
